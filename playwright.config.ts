@@ -39,7 +39,7 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'],
         
-        storageState:"LoginData\loginCookie.json"
+        storageState: "LoginDataloginCookie.json"
 
        },
 
