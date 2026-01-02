@@ -1,7 +1,19 @@
-
 # Playwright
 node_modules/
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+/LoginData/
+
+# ─────────────────────────────────────────────
+# Sensitive files – DO NOT COMMIT TO GIT
+# ─────────────────────────────────────────────
+
+# Environment variables file (contains secrets)
+.env
+
+# User session cookies file (stores authentication state)
+/LoginDataloginCookie.json
+
+
