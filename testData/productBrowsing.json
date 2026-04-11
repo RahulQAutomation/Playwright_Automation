@@ -1,0 +1,7 @@
+{
+  "testName": "Browse Products",
+  "testId": "TC-001",
+  "description": "User can browse and view all available products",
+  "expectedProductCount": 3,
+  "expectedProducts": ["ADIDAS ORIGINAL", "ZARA COAT 3", "iphone 13 pro"]
+}

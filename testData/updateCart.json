@@ -1,0 +1,8 @@
+{
+  "testName": "Update Cart Quantities",
+  "testId": "TC-003",
+  "description": "User can update product quantities in cart",
+  "productToAdd": "ADIDAS ORIGINAL",
+  "quantityIncrement": true,
+  "waitTimeMs": 500
+}

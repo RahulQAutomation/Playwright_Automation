@@ -1,0 +1,8 @@
+{
+  "testName": "Remove Product from Cart",
+  "testId": "TC-004",
+  "description": "User can remove products from cart",
+  "productToAdd": "ADIDAS ORIGINAL",
+  "shouldRemove": true,
+  "waitTimeMs": 500
+}

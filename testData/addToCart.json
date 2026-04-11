@@ -1,0 +1,8 @@
+{
+  "testName": "Add Product to Cart",
+  "testId": "TC-002",
+  "description": "User can add multiple products to cart",
+  "productsToAdd": ["ADIDAS ORIGINAL", "ZARA COAT 3", "iphone 13 pro"],
+  "productsCount": 3,
+  "waitTimeMs": 500
+}

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import dotenv from 'dotenv';
-import { getAllProductNames, addProductToCart } from '../helpers/productUtils';
-import { selectFromTypeahead } from '../helpers/typeaheadHelper';
+import { getAllProductNames, addProductToCart } from '../../helpers/productUtils';
+import { selectFromTypeahead } from '../../helpers/typeaheadHelper';
 dotenv.config();
 
 // test.use({ storageState: 'LoginDataloginCookie.json' });

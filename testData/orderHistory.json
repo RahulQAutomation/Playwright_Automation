@@ -1,0 +1,7 @@
+{
+  "testName": "View Order History",
+  "testId": "TC-007",
+  "description": "User can view order history",
+  "shouldNavigateToOrders": true,
+  "waitTimeMs": 1000
+}

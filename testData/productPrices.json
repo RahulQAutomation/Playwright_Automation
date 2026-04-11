@@ -1,0 +1,8 @@
+{
+  "testName": "Validate Product Prices",
+  "testId": "TC-009",
+  "description": "User can view and validate product prices",
+  "minimumPrices": 0,
+  "minimumExpectedProducts": 1,
+  "currency": "INR"
+}

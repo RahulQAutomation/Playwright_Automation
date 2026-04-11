@@ -1,0 +1,7 @@
+{
+  "testName": "Cart Summary",
+  "testId": "TC-014",
+  "description": "User can view cart summary with total price",
+  "productToAdd": "ADIDAS ORIGINAL",
+  "waitTimeMs": 500
+}

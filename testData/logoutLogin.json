@@ -1,0 +1,6 @@
+{
+  "testName": "Logout and Login",
+  "testId": "TC-011",
+  "description": "User can logout and login again",
+  "waitTimeMs": 500
+}

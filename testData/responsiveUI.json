@@ -1,0 +1,7 @@
+{
+  "testName": "Responsive UI Elements",
+  "testId": "TC-013",
+  "description": "Verify responsive UI elements are visible",
+  "expectedElements": ["cartIcon", "productCards", "dashboardHeading"],
+  "minimumProductCards": 1
+}

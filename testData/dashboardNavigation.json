@@ -1,0 +1,7 @@
+{
+  "testName": "Dashboard Navigation",
+  "testId": "TC-012",
+  "description": "User can navigate through different dashboard sections",
+  "sections": ["products", "dashboard"],
+  "waitTimeMs": 500
+}

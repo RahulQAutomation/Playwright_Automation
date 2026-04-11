@@ -1,0 +1,9 @@
+{
+  "testName": "Order Details Verification",
+  "testId": "TC-015",
+  "description": "User can verify order details after purchase",
+  "productToAdd": "iphone 13 pro",
+  "country": "India",
+  "expectedConfirmationMessage": "Thank you for the order",
+  "waitTimeMs": 500
+}

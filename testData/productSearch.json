@@ -1,0 +1,8 @@
+{
+  "testName": "Search Products",
+  "testId": "TC-008",
+  "description": "User can search or filter products",
+  "searchTerm": "ADI",
+  "minimumExpectedResults": 1,
+  "waitTimeMs": 1000
+}

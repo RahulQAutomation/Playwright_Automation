@@ -1,0 +1,9 @@
+{
+  "testName": "Multiple Products Purchase",
+  "testId": "TC-006",
+  "description": "User can purchase multiple products in one order",
+  "productsToAdd": ["ADIDAS ORIGINAL", "ZARA COAT 3"],
+  "country": "India",
+  "expectedConfirmationMessage": "Thank you for the order",
+  "waitTimeMs": 500
+}

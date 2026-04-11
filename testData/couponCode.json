@@ -1,0 +1,8 @@
+{
+  "testName": "Apply Coupon Code",
+  "testId": "TC-010",
+  "description": "User can apply coupon code during checkout",
+  "productToAdd": "ADIDAS ORIGINAL",
+  "couponCode": "TESTAUTO",
+  "waitTimeMs": 500
+}
