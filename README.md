@@ -24,7 +24,7 @@ This framework is designed to automate web application testing, ensuring reliabi
 - **✅ Cookie-based Authentication** - Fast login with persistent session storage
 - **✅ HTML Reporting** - Comprehensive test reports with artifacts
 - **✅ Environment Management** - Secure credential handling via .env
-
+as
 ---
 
 ## 🧰 Tech Stack
