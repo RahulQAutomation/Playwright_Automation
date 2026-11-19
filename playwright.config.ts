@@ -35,18 +35,21 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    {name: "setup", testMatch:/.*\.setup\.ts/},
+    { name: "setup", testMatch: /.*\.setup\.ts/ },
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'],
-        
-        storageState: "LoginDataloginCookie.json"
+      use: {
+        ...devices['Desktop Chrome'],
 
-       },
+        storageState: "LoginDataloginCookie.json",
+        viewport: null,          // ✅ inside use
+        launchOptions: {
+          args: ['--start-maximized']
 
-       dependencies: ["setup"],
-    
-    },
+        },
+
+      },
+      dependencies: ["setup"]
 
     // {
     //   name: 'firefox',
@@ -76,7 +79,7 @@ export default defineConfig({
     // {
     //   name: 'Google Chrome',
     //   use: { ...devices['Desktop Chrome'], channel: 'chrome' },
-    // },
+     },
   ],
 
   /* Run your local dev server before starting the tests */
