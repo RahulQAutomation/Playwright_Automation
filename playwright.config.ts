@@ -40,7 +40,6 @@ export default defineConfig({
       name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
-
         storageState: "LoginDataloginCookie.json",
         launchOptions: {
           args: ['--start-maximized']
