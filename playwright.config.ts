@@ -42,7 +42,6 @@ export default defineConfig({
         ...devices['Desktop Chrome'],
 
         storageState: "LoginDataloginCookie.json",
-        viewport: null,          // ✅ inside use
         launchOptions: {
           args: ['--start-maximized']
 
